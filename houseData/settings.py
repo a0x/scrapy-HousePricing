@@ -18,7 +18,10 @@ DEFAULT_ITEM_CLASS = 'houseData.items.HouseDataItem'
 
 ITEM_PIPELINES = {'houseData.pipelines.JsonWithEncodingHousePipeline': 1}
 
-
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0'
+ROBOTSTXT_OBEY = False
+DOWNLOAD_DELAY = 5
+COOKIES_ENABLED = False
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'houseData (+http://www.yourdomain.com)'
